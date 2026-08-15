@@ -1,0 +1,23 @@
+# 编译缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 恶意样本（严禁上传！）
+*.exe
+*.dll
+*.sys
+*.scr
+*.cpl
+*.bin
+*.zip
+*.rar
+samples/   # 如果你建了samples文件夹放样本，直接忽略整个文件夹
+
+# 输出报告（可能含敏感IOC，建议不上传）
+*.csv
+*.log
+
+# IDE配置
+.vscode/
+.idea/
